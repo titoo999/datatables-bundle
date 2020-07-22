@@ -526,7 +526,7 @@ TBD.
 # DataTable Types
 
 ```php?start_inline=1
-$table = $this->createDataTableFromType(PresidentsTableType::class)
+$table = $tableFactory->createFromType(PresidentsTableType::class)
     ->handleRequest($request);
 ```
 
